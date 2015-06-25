@@ -15,7 +15,7 @@ It was the first time I had ever participated in such an event so I was both exc
 
 Before the hackfest, I had been excited for the event for weeks and even started recruiting a team before hand, which ended up being my friends and fellow Turing students Eric Dowty and Patrick Medaugh, but we had no idea what we were doing to build. One of the ideas vetoed was an app that lets you receive emails from your favorite celebrities, such as Taylor Swift, who surprisingly some people people at Turing are obsessed with. We settled on an app that we called Trolio that let you spam your friends with random MMS messages.
 
-![Trolio](/assets/img/trolio.png){: .center-image }
+![Trolio](/assets/img/trolio.png)
 
 The thought behind Trolio was that just about everyone gets random texts from time to time from someone they don't know. Eric came up with the idea, which a lot of people really enjoyed and thought was pretty funny, where you could go to our app, enter a message, which we provided the default 'wish you were here!', enter a URL to an image, again a random default one is provided, then you enter a phone number and your friend (or person you're trolling) will receive a text with all of that information from a random rural Colorado phone number.
 
