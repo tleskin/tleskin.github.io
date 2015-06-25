@@ -31,4 +31,9 @@ In the end, we got to present our app and although we didn't win, people did see
 
 Even before attending the Humor Hackfest, I got some advice from a Turing graduate that I should try to participate in as many 'hack-a-thons' as possible since it looks good to employers and many look for new employees at these sort of events. While that's probably true, I think participating in such an event shows that you're able to come up with an idea and put together some sort of implementation quickly. For anyone studying software development, Turing students or not, I challenge you to participate in at least one as it will give you a great assessment of your skills and show that you can think on your feet under pressure and time constraints. Some advice that I'd give, which could apply to any project, not just for a hackfest, is to use some agile practices and work in iterations. There's no way you're going to build the next hot fully fleshed out app in just a few hours, but the chances are you can build something that can be expanded upon later.
 
+Here's our project, just incase anyone was interested:
+
+[http://trolio.herokuapp.com](http://trolio.herokuapp.com)
+[https://github.com/eric-dowty/trolio](https://github.com/eric-dowty/trolio)
+
 Besides that, just have fun and happy hacking!
