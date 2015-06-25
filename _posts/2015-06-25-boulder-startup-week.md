@@ -33,8 +33,10 @@ Even before attending the Humor Hackfest, I got some advice from a Turing gradua
 
 Here's our project, just incase anyone was interested:
 
+Demo app:
 [http://trolio.herokuapp.com](http://trolio.herokuapp.com)
 
+Project repository:
 [https://github.com/eric-dowty/trolio](https://github.com/eric-dowty/trolio)
 
 Besides that, just have fun and happy hacking!
