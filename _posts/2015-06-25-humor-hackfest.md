@@ -15,7 +15,9 @@ It was the first time I had ever participated in such an event so I was both exc
 
 Before the hackfest, I had been excited for the event for weeks and even started recruiting a team before hand, which ended up being my friends and fellow Turing students Eric Dowty and Patrick Medaugh, but we had no idea what we were doing to build. One of the ideas vetoed was an app that lets you receive emails from your favorite celebrities, such as Taylor Swift, who surprisingly some people people at Turing are obsessed with. We settled on an app that we called Trolio that let you spam your friends with random MMS messages.
 
+<center>
 ![Trolio](/assets/img/trolio.png)
+</center>
 
 The thought behind Trolio was that just about everyone gets random texts from time to time from someone they don't know. Eric came up with the idea, which a lot of people really enjoyed and thought was pretty funny, where you could go to our app, enter a message, which we provided the default 'wish you were here!', enter a URL to an image, again a random default one is provided, then you enter a phone number and your friend (or person you're trolling) will receive a text with all of that information from a random rural Colorado phone number.
 
@@ -27,7 +29,7 @@ As the time went on, we had our app mostly finished in about an hour and a half.
 
 In the end, we got to present our app and although we didn't win, people did seem to love it. I remember reading on Twitter how someone mentioned our app was their favorite out of all the presentations so far. It also seemed to be the most favorited and retweeted out of all the apps.
 
-![Group](/assets/img/hackfest.png)
+<center>![Group](/assets/img/hackfest.png)</center>
 
 Even before attending the Humor Hackfest, I got some advice from a Turing graduate that I should try to participate in as many 'hack-a-thons' as possible since it looks good to employers and many look for new employees at these sort of events. While that's probably true, I think participating in such an event shows that you're able to come up with an idea and put together some sort of implementation quickly. For anyone studying software development, Turing students or not, I challenge you to participate in at least one as it will give you a great assessment of your skills and show that you can think on your feet under pressure and time constraints. Some advice that I'd give, which could apply to any project, not just for a hackfest, is to use some agile practices and work in iterations. There's no way you're going to build the next hot fully fleshed out app in just a few hours, but the chances are you can build something that can be expanded upon later.
 
