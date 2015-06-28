@@ -5,7 +5,7 @@ date:   2015-06-26 12:31:00
 categories: coding
 ---
 
-One of the things that I love about [Turing](http://www.turing.io/) is the fact that they try to turn us into extremely diverse developers. One way they do that is by requiring us to do a Lightning Talk once a module after you complete Module 1. While your first talk in Module 2 doesn't have to be technical and can be about any topic you like, such as your career before software development, the others that follow should be something coding or technology related.
+One of the things that I love about [Turing](http://www.turing.io/) is the fact that the program and its instructors try to turn us into extremely diverse developers. One way they do that is by requiring us to do a Lightning Talk once a module after you complete Module 1. While your first talk in Module 2 doesn't have to be technical and can be about any topic you like, such as your career before software development, the others that follow should be something coding or technology related.
 
 Since we're always so busy with classwork and don't usually have time for much else, I've been using my Lightning Talks as an opportunity to explore topics that I find interesting, but usually don't have the time to.
 
