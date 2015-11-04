@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="post">
 	<p>
-	Tom software developer based in Boulder, CO. He graduated from the Turing School of Software and Design in Denver, CO, in August 2015. Originally from northeast Pennsylvania, he relocated to Boulder, CO in May 2014.</p>
+	Tom is a software developer based in Boulder, CO. He graduated from the Turing School of Software and Design in Denver, CO, in August 2015. Originally from northeast Pennsylvania, he relocated to Boulder, CO in May 2014.</p>
 
 	<p>Before getting into software development, he worked as a journalist and his work has appeared at AndroidGuys, Akihabara News, The Republican-Herald, The News-Item, China Daily and Tonic.</p>
 
