@@ -9,7 +9,7 @@ permalink: /contact/
   <div class="contactContent">
     <p class="intro">If you have questions, feel free to contact me. Thanks!</p>
   </div>
-  <form action="http://formspree.io/tleskin@gmail.com">
+  <form method="POST" action="http://formspree.io/tleskin@gmail.com">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
