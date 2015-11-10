@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ember reading materials, even a free book"
+title:  "Ember reading materials, including a free book"
 date:   2015-11-09 22:00:00
 categories: ember
 ---
