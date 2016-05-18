@@ -1,5 +1,5 @@
 title: Tom Leskin
-description: American journalist turned software developer.
+description: Journalist turned full-stack developer.
 
 url: http://tleskin.github.io
 baseurl: ""
@@ -13,10 +13,12 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
+ - title: Resume
+   url: /resume
+ - title: Recommendations
+   url: /rec
  - title: About
    url: /about
- - title: Contact
-   url: /contact
 
 social:
    github: tleskin
@@ -25,3 +27,5 @@ social:
    email: tleskin@gmail.com
 
 google_analytics: "UA-58263416-1"
+
+gems: [jekyll-paginate, pygments.rb]
