@@ -16,7 +16,7 @@ My talk was originally shared over at the Turing's blog. Here's my description f
 
 My screencast/presentation is also over on Turing's Vimeo channel, but to make it easier, here it is:
 
-<center><iframe src="https://player.vimeo.com/video/131476026" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/131476026">Exploring the MEAN Stack -- Tom Leskin</a> from <a href="https://vimeo.com/turing">Turing School</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
+<iframe src="https://player.vimeo.com/video/131476026" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/131476026">Exploring the MEAN Stack -- Tom Leskin</a> from <a href="https://vimeo.com/turing">Turing School</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Slides from my talk can be viewed [here](http://tleskin.github.io/exploring-mean-stack/).
 

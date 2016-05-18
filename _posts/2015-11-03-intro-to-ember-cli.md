@@ -9,9 +9,7 @@ Coming from the world of Ruby and Rails, learning JavaScript seemed a daunting
 task, especially when it came to learning things like [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) or what it means
 to [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind). Luckily, I had a [great JavaScript instructor](https://twitter.com/stevekinney/status/551400389749141505) who was especially helpful when I decided to learn Ember.
 
-<center>
-![Building with Ember](/assets/img/build_with_ember.png)
-</center>
+![Building with Ember](/assets/img/build_with_ember.png){: .center-image }
 
 There are many tutorials on the web to help teach you Ember like the [one on Code School](https://www.codeschool.com/courses/warming-up-with-ember-js), but those that are sightly outdated, like the Code School one, won't teach you to develop Ember apps with the Ember CLI, a command line interface for "ambitious web applications" and the generally accepted way to create Ember apps today.
 
@@ -27,17 +25,13 @@ To install Ember CLI, as long as you have [npm](https://www.npmjs.com/) (Node Pa
 
 For help installing, the Ember website has a [tutorial](http://guides.emberjs.com/v2.1.0/getting-started/), plus has [another tutorial](http://guides.emberjs.com/v2.1.0/getting-started/first-app/) to help you build your first Ember app.
 
-<center>
-![New Ember project](/assets/img/ember-new.png)
-</center>
+![New Ember project](/assets/img/ember-new.png){: .center-image }
 
 By running the 'ember new' command, we create a new project directory with different folders and files and install any packages or dependencies needed via npm. The great thing about this is that if you've seen a NodeJS app before and/or a Rails app, you have an idea of the layout and where things should be located. For example, in the app folder, you have additional folders and files for your components, controllers, models, routes and templates, etc.
 
 Believe it or not, just by running this simple 'ember new' command, we already have a working Ember app even though it's extremely simple and doesn't do much. If we run 'ember s' or 'ember server', our app will be built and served to localhost:4200.
 
-<center>
-![Build Ember app](/assets/img/ember-s.png)
-</center>
+![Build Ember app](/assets/img/ember-s.png){: .center-image }
 
 Now that we have our new app, we can start building it out and make use of Ember CLI's generators. The generators in Ember CLI are very much Rails-like and can generate nearly anything including models, routes, controllers, components, adapters, tests... you name it.
 
@@ -52,17 +46,13 @@ through third-party addons.
 
 To run your tests, just run 'ember test' from your command line and the tests will be run and you can see the results right there. You can also re-run your tests on every file-change by running 'ember test --server' from the command line. These commands run your tests using Testem to make testing multiple browsers very easy. You can configure Testem using the testem.json file in your application root.
 
-<center>
-![Testing](/assets/img/testing.png)
-</center>
+![Testing](/assets/img/testing.png){: .center-image }
 
 If you have your app built and served to a local server, you can just visit ‘http://localhost:4200/tests’ and view your tests in the browser.
 
 One last thing to mention is that while using generators to generate code such as models or controllers will create tests for you, you can also generate your own tests such as an acceptance-test by running  'ember generate acceptance-test' then the name of the test. For example, here's how I would create an acceptance-test testing login, 'ember g acceptance-test login', plus the test it generates.
 
-<center>
-![Acceptance test](/assets/img/acceptance-test.png)
-</center>
+![Acceptance test](/assets/img/acceptance-test.png){: .center-image }
 
 #### Addons
 
