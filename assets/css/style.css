@@ -33,3 +33,7 @@ a:hover{color:#145AA6}.nav-collapse{z-index:1}.nav-collapse ul{margin:0;padding:
 .rec-res {
 	max-width: 70%;
 }
+
+.link-center {
+	text-align: center;
+}
