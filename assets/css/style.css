@@ -12,6 +12,7 @@ a:hover{color:#145AA6}.nav-collapse{z-index:1}.nav-collapse ul{margin:0;padding:
 }
 
 #description {
+	padding-left: 10px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -21,4 +22,10 @@ a:hover{color:#145AA6}.nav-collapse{z-index:1}.nav-collapse ul{margin:0;padding:
 
 .header {
 	background-color: white !important;
+}
+
+@media (max-width: 800px) {
+	#description {
+		display: none;
+	}
 }
