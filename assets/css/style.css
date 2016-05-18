@@ -31,6 +31,5 @@ a:hover{color:#145AA6}.nav-collapse{z-index:1}.nav-collapse ul{margin:0;padding:
 }
 
 .rec-res img {
-	max-width: 70%;
-	text-align: center;
+	max-width: 70% !important;
 }
