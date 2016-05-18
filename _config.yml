@@ -7,7 +7,7 @@ paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 
 navigation:
@@ -28,4 +28,4 @@ social:
 
 google_analytics: "UA-58263416-1"
 
-gems: [jekyll-paginate, pygments.rb]
+gems: [jekyll-paginate]
