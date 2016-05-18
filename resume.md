@@ -3,6 +3,6 @@ layout: default
 title: Resume
 permalink: /resume/
 ---
-![Resume]({{ site.url }}/assets/img/resume.png){: .rec-res }
+![Resume]({{ site.url }}/assets/img/resume.png){max-width="70%"}
 <br>
-<center>[Click to download]({{ site.url }}/assets/downloads/tel_resume.pdf)</center>
+[Click to download]({{ site.url }}/assets/downloads/tel_resume.pdf){text-align="center"}
