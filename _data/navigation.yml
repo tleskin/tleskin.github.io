@@ -1,0 +1,5 @@
+# Top navigation. So Simple only renders the nav menu if this file exists.
+- title: Home
+  url: /
+- title: About
+  url: /about/

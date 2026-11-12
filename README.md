@@ -2,8 +2,8 @@
 
 Personal blog by Tom Leskin, at [tleskin.github.io](https://tleskin.github.io).
 Built with [Jekyll](https://jekyllrb.com/) on GitHub Pages, using the
-[Minima](https://github.com/jekyll/minima) theme (v2.5.1 — the version
-GitHub Pages ships).
+[So Simple](https://github.com/mmistakes/so-simple-theme) theme (v3.2.0,
+installed as a `remote_theme`).
 
 ## Writing a post
 
@@ -34,11 +34,14 @@ preview matches production.
 
 ## Notes
 
-- The theme is Minima 2.5.1 (not v3, and not Chirpy): both of those need
-  Jekyll 4 / a GitHub Actions build, and this repo still uses the classic
-  GitHub Pages branch build. If the repo ever moves to an Actions build,
-  the theme can be revisited.
-- Styling tweaks live in `assets/main.scss` (variable overrides before
-  the `@import "minima"` line, plus a few extra rules after it).
+- The theme is So Simple 3.2.0 (not Chirpy or Minima v3): both of those
+  need Jekyll 4 / a GitHub Actions build, and this repo still uses the
+  classic GitHub Pages branch build. If the repo ever moves to an Actions
+  build, the theme can be revisited.
+- The skin is set in `_config.yml` (`skin: /assets/css/skins/default.css`
+  — `light.css` and `dark.css` are the other built-in options). Custom CSS
+  goes in `assets/main.scss`, which mirrors the theme's own file.
+- The top navigation comes from `_data/navigation.yml` (the theme only
+  renders the menu if that file exists).
 - The `resume` and `recommendations` pages are from 2015 and not linked
   in the header navigation. They still exist at `/resume/` and `/rec/`.

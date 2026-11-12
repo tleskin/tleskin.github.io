@@ -1,34 +1,11 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+# This mirrors the theme's own assets/css/main.scss exactly — a site file
+# at the same path wins over the theme file, so the build behaves as the
+# theme intends. Custom styles go below the import.
+sitemap: false
 ---
 
-// Variable overrides — these must come before the theme import,
-// because Minima declares its defaults with `!default`.
-$base-font-size: 17px;
-$base-line-height: 1.7;
-$spacing-unit: 36px;
-$content-width: 860px;
+@charset "utf-8";
 
-// Accent color for links (Apple-style blue).
-$brand-color: #0071e3;
-
-@import "minima";
-
-// Style overrides.
-.site-title {
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.post-title,
-.page-heading {
-  letter-spacing: -0.02em;
-}
-
-.post-link {
-  font-weight: 600;
-}
-
-h1, h2, h3 {
-  letter-spacing: -0.02em;
-}
+@import "so-simple";
