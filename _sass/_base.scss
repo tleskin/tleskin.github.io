@@ -10,8 +10,7 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 18% 0%, rgba(47, 175, 169, .16), transparent 36%), radial-gradient(circle at 88% 46%, rgba(40, 116, 153, .13), transparent 33%), $bg;
-  background-attachment: fixed;
+  background: $bg;
   color: $text;
   font-family: $font-sans;
   font-size: 16px;
