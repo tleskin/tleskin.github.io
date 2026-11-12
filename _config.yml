@@ -1,31 +1,45 @@
-title: Tom Leskin
-description: Journalist turned developer.
+# Tom Codes — tleskin.github.io
+# Built with Jekyll on GitHub Pages (github-pages gem, Jekyll 3.10).
+# Local preview: `bundle install` then `bundle exec jekyll serve`.
 
-url: http://tleskin.github.io
+title: Tom Codes
+description: >-
+  Notes on building software — by a front-end engineer who came back
+  to making things for fun.
+author: Tom Leskin
+email: tleskin@gmail.com
+
+url: "https://tleskin.github.io"
 baseurl: ""
-paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-paginate: 5
 
-navigation:
- - title: Home
-   url: /index.html
- - title: Resume
-   url: /resume
- - title: Recommendations
-   url: /rec
- - title: About
-   url: /about
+# Theme: Minima 2.5.1 — the exact version GitHub Pages ships and pins.
+# (Minima v3 and Chirpy both need Jekyll 4 / a GitHub Actions build,
+# which this repo doesn't use yet. See README.md.)
+theme: minima
 
-social:
-   github: tleskin
-   twitter: tomleskin
-   facebook: tomleskin
-   email: tleskin@gmail.com
+# Minima: only these pages appear in the header navigation.
+header_pages:
+  - about.md
 
-google_analytics: "UA-58263416-1"
+# Minima: show post excerpts on the home page.
+show_excerpts: true
 
-gems: [jekyll-paginate]
+# Minima: footer social links.
+github_username: tleskin
+twitter_username: tomleskin
+linkedin_username: thomasleskin
+rss: subscribe
+
+# Minima: date format (e.g. "November 12, 2026").
+minima:
+  date_format: "%B %-d, %Y"
+
+# Plugins whitelisted on GitHub Pages.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
