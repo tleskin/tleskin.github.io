@@ -36,8 +36,8 @@ preview matches production.
 
 ## Notes
 
-- The theme uses a navy background, magenta accents, and a wide homepage
-  hero. Its workspace image and Tom's cropped portrait live in `assets/img/`.
+- The theme uses a dark teal background, sea glass accents, and a wide homepage
+  hero. Its teal workspace image and Tom's cropped portrait live in `assets/img/`.
 - Journal cards use `card_image:` or `image:` from a post's front matter.
   Posts without either get a styled cover. The homepage search filters
   visible posts in the browser.
