@@ -1,31 +1,51 @@
-title: Tom Leskin
-description: Journalist turned developer.
+# Tom Codes — tleskin.github.io
+# Built with Jekyll on GitHub Pages (github-pages gem, Jekyll 3.10).
+# Local preview: `bundle install` then `bundle exec jekyll serve`.
+# Custom theme: site-local files in _layouts/, _includes/, _sass/.
+# No gem, no remote_theme — everything the theme needs lives in this repo.
 
-url: http://tleskin.github.io
+title: Tom Codes
+description: >-
+  Notes on building software — by a front-end engineer who came back
+  to making things for fun.
+
+url: "https://tleskin.github.io"
 baseurl: ""
-paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+date_format: "%B %-d, %Y"
 
-navigation:
- - title: Home
-   url: /index.html
- - title: Resume
-   url: /resume
- - title: Recommendations
-   url: /rec
- - title: About
-   url: /about
+twitter:
+  username: tomleskin
 
-social:
-   github: tleskin
-   twitter: tomleskin
-   facebook: tomleskin
-   email: tleskin@gmail.com
+# jekyll-feed writes the feed to atom.xml.
+feed:
+  path: atom.xml
 
-google_analytics: "UA-58263416-1"
+# Plugins whitelisted on GitHub Pages.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
-gems: [jekyll-paginate]
+# Site author.
+author:
+  name: Tom Leskin
+  picture: /assets/img/tom-portrait.jpg
+  email: tleskin@gmail.com
+  twitter: tomleskin
+  links:
+    - title: GitHub
+      url: https://github.com/tleskin
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/thomasleskin
+
+# Interests shown in the "Nerd Stuff" row on the homepage.
+interests:
+  - Homebrewing
+  - Nintendo & retro gaming
+  - Local AI
+  - Coding

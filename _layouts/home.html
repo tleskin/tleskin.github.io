@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-panel">
+    <figure class="hero-visual">
+      <img src="{{ '/assets/img/workspace-hero.png' | relative_url }}" alt="A colorful home workspace with a computer, plants, and retro games">
+      <figcaption>A place to make things, learn things, and have fun.</figcaption>
+    </figure>
+    <div class="hero-content">
+      <img class="hero-avatar" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Tom Leskin">
+      <p class="eyebrow">Front-end engineer &amp; lifelong tinkerer</p>
+      <h1 id="hero-title" class="hero-greeting">Hi! I&rsquo;m Tom <span aria-hidden="true">👋</span></h1>
+      <p class="hero-deck">I build for the web and write about the joy of making things.</p>
+      <div class="hero-bio">{{ content }}</div>
+      <p class="hero-actions">
+        <a class="button" href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">→</span></a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="journal wrap" id="journal" aria-labelledby="journal-title">
+  <div class="section-heading">
+    <h2 id="journal-title">The Binary Journal</h2>
+    <span class="heading-rule" aria-hidden="true"></span>
+    <span class="section-count">{{ site.posts | size }} posts</span>
+  </div>
+  <div class="journal-layout">
+    <div class="post-list" id="post-list">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+      <p class="search-empty" id="search-empty" hidden>No posts match that search.</p>
+    </div>
+    <aside class="journal-sidebar" aria-label="More about Tom Codes">
+      <div class="sidebar-feature">
+        <span class="sidebar-kicker">A note from Tom</span>
+        <h3>Stay curious. Keep building. ✌️</h3>
+        <p>Thoughts on code, creativity, old games, and the little moments that make building software fun.</p>
+        <a href="{{ '/about/' | relative_url }}">Get to know me <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="sidebar-links" aria-label="Follow Tom">
+        {% for link in site.author.links %}
+          <a href="{{ link.url }}">{{ link.title }} <span aria-hidden="true">↗</span></a>
+        {% endfor %}
+        <a href="{{ '/atom.xml' | relative_url }}">RSS feed <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="sidebar-section">
+        <h3 class="sidebar-heading">Featured post</h3>
+        {% assign featured = site.posts.first %}
+        <a class="featured-post" href="{{ featured.url | relative_url }}">
+          <span class="featured-art" aria-hidden="true">✳</span>
+          <span>{{ featured.title }}</span>
+        </a>
+      </div>
+      <div class="sidebar-section">
+        <h3 class="sidebar-heading">Nerd stuff</h3>
+        <ul class="chips">
+          {% for interest in site.interests %}<li class="chip">{{ interest }}</li>{% endfor %}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+<script>
+  (function () {
+    var search = document.getElementById('post-search');
+    if (!search) return;
+    var cards = document.querySelectorAll('#post-list .post-card');
+    var empty = document.getElementById('search-empty');
+    var journalTitle = document.getElementById('journal-title');
+    var header = document.querySelector('.site-header');
+    function scrollToResults() {
+      var top = journalTitle.getBoundingClientRect().top + window.scrollY - header.offsetHeight - 16;
+      window.scrollTo({ top: top, behavior: 'auto' });
+    }
+
+    search.addEventListener('input', function () {
+      var term = search.value.trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function (card) {
+        var matches = card.textContent.toLowerCase().includes(term);
+        card.hidden = !matches;
+        if (matches) visible++;
+      });
+      empty.hidden = visible !== 0;
+      if (term) scrollToResults();
+    });
+  }());
+</script>

@@ -1,0 +1,15 @@
+<aside class="author">
+  {% if site.author.picture %}
+    <img class="author-avatar" src="{{ site.author.picture | relative_url }}" alt="{{ site.author.name }}">
+  {% endif %}
+  <div class="author-info">
+    <p class="author-name">{{ site.author.name }}</p>
+    <p class="author-bio">{{ site.description }}</p>
+    <p class="author-links">
+      {% for link in site.author.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </p>
+  </div>
+</aside>
