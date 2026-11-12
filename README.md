@@ -1,9 +1,11 @@
 # Tom Codes
 
 Personal blog by Tom Leskin, at [tleskin.github.io](https://tleskin.github.io).
-Built with [Jekyll](https://jekyllrb.com/) on GitHub Pages, using the
-[So Simple](https://github.com/mmistakes/so-simple-theme) theme (v3.2.0,
-installed as a `remote_theme`).
+Built with [Jekyll](https://jekyllrb.com/) on GitHub Pages, using a
+custom theme written for this site (layouts in `_layouts/`, includes in
+`_includes/`, styles in `_sass/` + `assets/css/main.scss`). No gem, no
+`remote_theme` — everything the theme needs lives in this repo, so it
+builds on the classic GitHub Pages branch build.
 
 ## Writing a post
 
@@ -34,14 +36,14 @@ preview matches production.
 
 ## Notes
 
-- The theme is So Simple 3.2.0 (not Chirpy or Minima v3): both of those
-  need Jekyll 4 / a GitHub Actions build, and this repo still uses the
-  classic GitHub Pages branch build. If the repo ever moves to an Actions
-  build, the theme can be revisited.
-- The skin is set in `_config.yml` (`skin: /assets/css/skins/default.css`
-  — `light.css` and `dark.css` are the other built-in options). Custom CSS
-  goes in `assets/main.scss`, which mirrors the theme's own file.
-- The top navigation comes from `_data/navigation.yml` (the theme only
-  renders the menu if that file exists).
+- The theme is custom and dark by design (near-black background, warm
+  amber accent, system fonts). The homepage hero uses the photo from
+  `index.md` front matter (`image:`), cropped to a 16:9 banner inside
+  the 768px content column.
+- Post cards show a featured image when a post sets `image:` in its
+  front matter; otherwise they fall back to a `</>` placeholder block.
+  None of the current posts set one yet.
+- The "Nerd Stuff" interests row on the homepage comes from the
+  `interests:` list in `_config.yml`.
 - The `resume` and `recommendations` pages are from 2015 and not linked
   in the header navigation. They still exist at `/resume/` and `/rec/`.

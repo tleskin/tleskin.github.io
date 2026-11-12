@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">Tom Codes</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
+    <div class="site-social">
+      {% for link in site.author.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section class="hero">
+  {% if page.image %}
+    <div class="hero-image">
+      <img src="{{ page.image | relative_url }}" alt="Tom Leskin presenting to a room">
+    </div>
+  {% endif %}
+  <div class="wrap">
+    <h1 class="hero-greeting">Hi! I&rsquo;m Tom</h1>
+    <div class="hero-bio">
+      {{ content }}
+    </div>
+    <p class="hero-actions">
+      <a class="button" href="{{ '/about/' | relative_url }}">More about me</a>
+      {% for link in site.author.links %}
+        <a class="hero-social" href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+      <a class="hero-social" href="mailto:{{ site.author.email }}">Email</a>
+    </p>
+  </div>
+</section>
+
+<section class="interests">
+  <div class="wrap">
+    <h2 class="section-title">Nerd Stuff</h2>
+    <ul class="chips">
+      {% for interest in site.interests %}
+        <li class="chip">{{ interest }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="posts">
+  <div class="wrap">
+    <h2 class="section-title">Posts</h2>
+    <div class="post-list">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

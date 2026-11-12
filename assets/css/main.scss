@@ -1,29 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-# This mirrors the theme's own assets/css/main.scss exactly — a site file
-# at the same path wins over the theme file, so the build behaves as the
-# theme intends. Custom styles go below the import.
 sitemap: false
 ---
 
 @charset "utf-8";
 
-@import "so-simple";
-
-/* Homepage header image: the theme stretches it full-width, so a 4:3
-   photo dominates the page. Constrain it to the home content column
-   (768px, matching .layout--home .page-wrapper) and crop to a banner. */
-.layout--home .page-image {
-  max-width: 768px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1em;
-  padding-left: 1em;
-
-  img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    object-position: center 40%;
-  }
-}
+@import
+  "variables",
+  "base",
+  "layout",
+  "components",
+  "syntax";

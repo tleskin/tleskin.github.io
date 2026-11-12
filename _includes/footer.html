@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-blurb">{{ site.description }}</p>
+    <p class="footer-links">
+      {% for link in site.author.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ '/atom.xml' | relative_url }}">Feed</a>
+    </p>
+    <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} &middot; Built with Jekyll on GitHub Pages</p>
+  </div>
+</footer>

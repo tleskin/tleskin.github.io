@@ -1,14 +1,8 @@
 # Tom Codes — tleskin.github.io
 # Built with Jekyll on GitHub Pages (github-pages gem, Jekyll 3.10).
 # Local preview: `bundle install` then `bundle exec jekyll serve`.
-
-# Theme: So Simple 3.2.0, installed as a remote theme. The classic Pages
-# build (Jekyll 3.10) can't run Chirpy or Minima v3 — both need Jekyll 4 /
-# a GitHub Actions build. So Simple needs Jekyll >= 3.6, < 5.0 and only
-# Pages-whitelisted plugins, so it builds on the classic Pages stack.
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/default.css"
-locale: en-US
+# Custom theme: site-local files in _layouts/, _includes/, _sass/.
+# No gem, no remote_theme — everything the theme needs lives in this repo.
 
 title: Tom Codes
 description: >-
@@ -23,25 +17,12 @@ markdown: kramdown
 highlighter: rouge
 date_format: "%B %-d, %Y"
 
-# So Simple typography (Source Sans Pro + Lora, loaded from Google Fonts).
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-
-# Reading-time estimates on posts.
-read_time: true
-
-# jekyll-feed writes the feed to atom.xml (the theme's footer links there).
-feed:
-  path: atom.xml
-
-# No search page is set up; leave full-content search off.
-search_full_content: false
-
 twitter:
   username: tomleskin
+
+# jekyll-feed writes the feed to atom.xml.
+feed:
+  path: atom.xml
 
 # Plugins whitelisted on GitHub Pages.
 plugins:
@@ -50,16 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-# New posts get the post layout and share buttons by default.
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
-
-# Site author — shown in the sidebar on every post.
+# Site author.
 author:
   name: Tom Leskin
   picture: /assets/img/talk.jpg
@@ -68,13 +40,12 @@ author:
   links:
     - title: GitHub
       url: https://github.com/tleskin
-      icon: fab fa-github
     - title: LinkedIn
       url: https://www.linkedin.com/in/thomasleskin
-      icon: fab fa-linkedin
 
-# Footer links.
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+# Interests shown in the "Nerd Stuff" row on the homepage.
+interests:
+  - Homebrewing
+  - Nintendo & retro gaming
+  - Local AI
+  - Coding
