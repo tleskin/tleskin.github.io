@@ -3,6 +3,7 @@ layout: post
 title: "It Feels Like BASIC Again"
 date: 2026-11-12 12:00:00 -0500
 description: "Why building apps with AI reminds me of the early home-computer days — and why that feeling matters more than the tools."
+published: false
 ---
 
 I have this romantic thought I keep coming back to, and I don't quite know where to put it. I don't have a YouTube channel. I barely post anywhere. But it feels like the kind of thing other people would recognize the second they hear it.

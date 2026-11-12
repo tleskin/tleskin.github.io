@@ -1,6 +1,5 @@
 ---
 layout: home
-image: /assets/img/talk.jpg
 ---
 
-I'm Tom — a front-end engineer writing about building software, and about coming back to making things for fun.
+This is my little corner of the internet for ideas about software, creativity, and the tools that make us curious. I like building useful things, revisiting old favorites, and remembering that making things should be fun.

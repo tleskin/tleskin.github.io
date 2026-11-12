@@ -3,6 +3,7 @@ layout: post
 title:  "Building ambitious Ember apps is easy with Ember CLI"
 date:   2015-11-03 22:15:00
 categories: ember
+card_image: /assets/img/build_with_ember.png
 ---
 
 Coming from the world of Ruby and Rails, learning JavaScript seemed a daunting

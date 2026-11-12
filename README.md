@@ -36,14 +36,11 @@ preview matches production.
 
 ## Notes
 
-- The theme is custom and dark by design (near-black background, warm
-  amber accent, system fonts). The homepage hero uses the photo from
-  `index.md` front matter (`image:`), cropped to a 16:9 banner inside
-  the 768px content column.
-- Post cards show a featured image when a post sets `image:` in its
-  front matter; otherwise they fall back to a `</>` placeholder block.
-  None of the current posts set one yet.
-- The "Nerd Stuff" interests row on the homepage comes from the
-  `interests:` list in `_config.yml`.
+- The theme uses a navy background, magenta accents, and a wide homepage
+  hero. Its workspace image and Tom's cropped portrait live in `assets/img/`.
+- Journal cards use `card_image:` or `image:` from a post's front matter.
+  Posts without either get a styled cover. The homepage search filters
+  visible posts in the browser.
+- The sidebar's "Nerd stuff" tags come from `interests:` in `_config.yml`.
 - The `resume` and `recommendations` pages are from 2015 and not linked
   in the header navigation. They still exist at `/resume/` and `/rec/`.

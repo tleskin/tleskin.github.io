@@ -3,6 +3,7 @@ layout: post
 title:  "Ember reading materials, including a free book"
 date:   2015-11-09 22:00:00
 categories: ember
+card_image: /assets/img/rocknroll.png
 ---
 
 Learning a new concept or even a JavaScript framework can be hard. It's even harder if the documentation isn't that beginner friendly. Although that isn't really the case with Ember, in my opinion, I still enjoy finding a good programming book to help teach me the concepts I need to learn and that will even help me build my first app using that new technology.

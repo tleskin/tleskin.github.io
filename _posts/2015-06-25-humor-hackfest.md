@@ -3,6 +3,7 @@ layout: post
 title:  "Tickling funny bones at the Quick Left Humor Hackfest 2015"
 date:   2015-06-25 05:45:00
 categories: coding
+card_image: /assets/img/hackfest.png
 ---
 
 Being a student at [Turing](http://www.turing.io/) can be a roller coaster of a time for seven months. You have practically no free time to do anything else, hence why I'm writing this blog post about a month and a half late. You experience ups and downs, times when you feel like the best programmer in the world and other times you're doubting yourself and thinking this probably isn't for me. In my experience though, all the hard work pays off and you eventually get to a break between the six week modules, known as an intermission week.

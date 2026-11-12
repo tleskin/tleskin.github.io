@@ -3,6 +3,7 @@ layout: post
 title:  "Learning how to learn, hacking at Pebble Rocks Boulder"
 date:   2015-09-8 12:28:00
 categories: coding
+card_image: /assets/img/talk.jpg
 ---
 
 If someone had asked me seven months ago what I thought the most valuable thing was

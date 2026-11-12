@@ -4,21 +4,21 @@
 {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
 <article class="post-card">
   <a class="post-card-media" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}">
-    {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="">
+    {% assign card_image = post.card_image | default: post.image %}
+    {% if card_image %}
+      <img src="{{ card_image | relative_url }}" alt="">
     {% else %}
-      <span class="post-card-placeholder" aria-hidden="true">&lt;/&gt;</span>
+      {% assign post_year = post.date | date: "%Y" %}
+      <span class="post-card-placeholder" aria-hidden="true"><span class="cover-orbit"></span><span class="cover-mark">{% if post_year == '2026' %}BASIC{% else %}{{ post.categories | first | default: 'CODE' | upcase }}{% endif %}</span></span>
     {% endif %}
   </a>
   <div class="post-card-body">
+    <span class="post-card-category">{{ post.categories | first | default: 'Ideas' }}</span>
     <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <p class="post-card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</p>
     <p class="post-card-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
       <span aria-hidden="true">&middot;</span> {{ minutes }} min read
-      {% if post.categories %}
-        {% for cat in post.categories %}<span aria-hidden="true">&middot;</span> <span class="post-card-category">{{ cat }}</span>{% endfor %}
-      {% endif %}
     </p>
   </div>
 </article>

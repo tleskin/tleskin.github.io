@@ -13,15 +13,15 @@ body {
   background: $bg;
   color: $text;
   font-family: $font-sans;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 h1,
 h2,
 h3 {
   line-height: 1.25;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.035em;
 }
 
 a {
@@ -96,3 +96,6 @@ hr {
 .skip-link:focus {
   left: 0;
 }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+:focus-visible { outline: 2px solid #73c9d7; outline-offset: 3px; }
